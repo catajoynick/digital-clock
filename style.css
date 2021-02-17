@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap');
+
+body{
+
+    background-image: url(./nasa-Q1p7bh3SHj8-unsplash.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    font-family: 'Orbitron', sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+ 
+}
+h1{
+    margin: 0;
+}
+.container{
+
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+#clock{
+
+    border-radius: .6em;
+    margin: 0 auto;
+    height: 150px;
+    width: 400px;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+#clock-box{
+    
+    font-size: 5rem;
+    margin: auto;
+}
